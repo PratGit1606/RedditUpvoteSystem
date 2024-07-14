@@ -1,0 +1,28 @@
+div {
+  padding: 10px;
+}
+body.dark-mode {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+button {
+  margin: 10px 0;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.wrapper {
+  padding: 10px;
+  border: 2px solid #efefef;
+  margin-bottom: 10px;
+}
+
+.box-wrapper {
+  border: 2px solid #f76cb2;
+  width: max-content;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
